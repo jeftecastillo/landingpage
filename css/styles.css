@@ -1,0 +1,444 @@
+body {
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	
+}
+
+
+
+.logo img {
+	width: 100%; 
+	height: auto;
+	max-height: 250px;
+	max-width: 250px;
+	display: block;
+	margin:auto;
+	padding-top: 15px;
+
+}
+
+.header {
+	
+	background:#fff;
+	width: 100%;
+	height: 75px;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+	-webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.10));
+		-moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.10));
+		-ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.10));
+		-o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.10));
+}
+
+.button {
+	
+	background:#cf1950;
+	width: 10%;
+	height: 75px;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+	margin-top:300px;
+	-webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+}
+
+
+.button  p {
+		color: #FFFFFF;
+		text-align: center;
+		font-family: "Brandon Grotesque Bold", sans-serif;
+		letter-spacing: 1px;
+		padding-top: 11px;
+		font-weight: 700;
+	
+}
+
+.button  a {
+		color: #FFFFFF;
+		text-align: center;
+		font-family: "Brandon Grotesque Bold", sans-serif;
+		letter-spacing: 1px;
+		padding-top: 11px;
+		font-weight: 700;
+		text-decoration: none;
+		
+	
+}
+
+.button:hover{
+		background-color: #f9ebef;
+}
+
+.button p:hover{
+		color: #cf1950;
+}
+.image-wrapper {
+	font-family: 'Open Sans', serif;
+	padding: 0;
+	margin: 0;
+	max-width: 100%; 
+}
+
+#banner {
+	margin:0px auto;
+	max-width: 100%;
+	position: static;
+}
+
+#banner p {
+	margin:0;
+	text-align: center;
+	max-width: 100%;
+	position: absolute;
+}
+
+#banner img {
+	float: left;
+	width: 100%;
+}
+
+#banner p {
+	font-family: 'Brandon Grotesque Bold', sans-serif; font-weight:600;
+  	color: #ffffff;
+ 	font-size: 2em;
+ 	position: absolute;	
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 30%;
+}
+
+#banner h5 {
+	font-family: 'Brandon Grotesque Thin', sans-serif;
+	font-weight: 200;
+  	color: #ffffff;
+ 	font-size: 12px;
+ 	position: absolute;	
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 33%;
+	line-height: 18px;
+		
+}
+
+
+#wrap {
+	width: 100%;
+	height: auto;
+	background-color: #f9ebef;
+	float: right;
+}
+
+h3 {
+	float: left;
+	margin-left: 80px;
+	position: static;
+	z-index: 10;
+}
+
+.leftsquare1 {
+		border-radius: 25px;
+		background-color:#fff;
+		height: 300px;
+		width: 300px;
+		float:left;	
+		margin-left: 60px;		
+		margin-top: -5rem;
+		z-index: 20;
+		position: relative;
+		-webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+}
+
+.centertsquare2 {
+		border-radius: 25px;
+		background-color:#fff;
+		height: 300px;
+		width: 300px;
+		float:left;	
+		margin-left: 110px;	
+		margin-top: -5rem;
+		position: relative;
+		-webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+}
+
+
+.rightsquare3 {
+		border-radius: 25px;
+		background-color:#fff;
+		height: 300px;
+		width: 300px;
+		float: right;	
+		margin-right: 60px;
+		margin-top: -5rem;
+		position: relative;
+		-webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+		-o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.20));
+}
+
+#recommended readings{
+		background-color: #00FC55;
+		padding: 2rem 0 6.5rem 0;
+		position: relative;
+		margin-top: -5rem;
+		font-family: "Brandon Grotesque Bold"; 
+
+}
+
+.reading1info h5 {
+	float:left;
+	margin-left: 30px;
+	font-family: "Brandon Grotesque Thin" sans-serif;
+	font-weight: 100;
+	padding-top: 0px;
+	margin-top: auto;bottom: 0;
+}
+
+
+
+.readinginfo2 h5 {
+	float:left;
+	margin-left: 50px;
+	font-family: "Brandon Grotesque Thin" sans-serif;
+	font-weight: 100;
+	padding-top: 10px;
+	margin-top: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	bottom: 0;
+}
+	
+.readinginfo3 h5 {
+	float:right;
+	margin-right: -30px;
+	font-family: "Brandon Grotesque Thin" sans-serif;
+	font-weight: 100;
+	padding-top: 10px;
+	margin-top: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;bottom: 0;
+}
+
+
+
+
+.readings1 {
+	float: left;
+	margin-right: 80px;
+	text-align: center;
+	font-family: "Brandon Grotesque Bold"; 
+	margin-top: 30px;
+	position: static;
+}
+
+.readings1 a {
+		color: #000;
+}
+
+.readings1 a:hover{
+		color: #cf1950;
+}
+
+.readings2 {
+	float: left;
+	margin-left: 100px;
+	text-align: center;
+	font-family: "Brandon Grotesque Bold"; 
+	margin-top: 30px;
+	
+}
+
+.readings2 a {
+		color: #000;
+}
+
+.readings2 a:hover{
+		color: #cf1950;
+}
+
+.readings3 {
+	float: right;
+	margin-right: 100px;
+	text-align: center;
+	font-family: "Brandon Grotesque Bold"; 
+	margin-top: 30px;
+
+}
+
+
+.readings3 a {
+		color: #000;
+}
+
+.readings3 a:hover{
+		color: #cf1950;
+}
+
+
+.rectangle {
+	
+	background:#cf1950;
+	width: 100%;
+	height: 215px;
+	position: absolute;
+	margin-top: 1200px;
+	margin-right: 0;
+	
+	}
+
+#ourwork p {
+	
+	margin:50px 100px 0 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	color: #FDFDFD;
+	font-family: "Brandon Grotesque Bold", sans-serif; font-size: 2em;	font-weight:600;
+	
+}
+
+.clients img {
+	width: 100%; 
+	height: auto;
+	max-height: 500px;
+	max-width: 500px;
+	display: block;
+	margin:auto;
+	padding-top: 90px;
+
+}
+
+.rectangle2 {
+	
+	background-color: #f9ebef;
+	width: 100%;
+	height: 630px;
+	position: absolute;
+	margin-top: 1415px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	
+	}
+#events p {
+	margin:40px 100px 0 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	color: #000;
+	font-family: "Brandon Grotesque Bold", sans-serif; font-size: 2em; font-weight:600;
+}
+
+#events h5 {
+	margin:80px 100px 0 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	color: #000;
+	font-weight: 100;
+	font-family: "Brandon Grotesque Thin", sans-serif;
+}
+
+.rectangle2 img {
+	margin-left: 80px;
+	margin-top: 150px;
+	float: left;
+}
+
+
+.rectangle2 h3 {
+	float: left;
+	margin-top: 30px;
+	margin-left:145px;
+	
+
+	
+}
+
+.sbiconf h4{
+	float: left;
+	margin-left: 160px;
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.sbiconf h6{
+	float: left;
+	margin-left: -150px;
+	padding-top: 45px;
+	font-family: "Brandon Grotesque Regular", sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	text-align: center;
+	line-height: 17px;
+	
+}
+
+.sbiconf2 h3{
+	margin-left: 240px;
+	font-size: 20px
+			
+}
+
+.sbiconf2 h1{
+		float: left;
+		font-size: 12px;
+		margin: 70px 0px 0px -140px;
+		text-align: center;
+		font-family: "Brandon Grotesque Regular", sans-serif;
+		font-weight: 200;
+		line-height: 17px;
+}
+
+
+.sbiconf3 h4 {
+	float: right;
+	margin-top: 30px;
+	margin-right: 175px;
+	font-size: 20px
+}
+
+.sbiconf3 h1 {
+	float:right;
+	font-size: 12px;
+	margin-top: 72px;
+	margin-right: -115px;
+	text-align: center;
+	font-weight: 200;
+	line-height: 17px;
+}
+
+button {
+  background: #fff;
+  border: 1px solid #19395F;
+  padding: 15px;
+  position: fixed;
+}
+
+ #footer{position:absolute;
+   bottom:0;
+   margin-bottom: -60px;
+   margin-top: 0;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#fff;}
+
+#footer h6{
+	text-align: center;
+	font-family: "Brandon Grotesque Regular", sans-serif;
+	font-size: 10px;
+}
